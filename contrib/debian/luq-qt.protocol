@@ -1,0 +1,11 @@
+[Protocol]
+exec=luq-qt '%u'
+protocol=luq
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

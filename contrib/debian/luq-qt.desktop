@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=LUQ
+Comment=LUQ P2P Cryptocurrency
+Comment[fr]=LUQ, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=LUQ, eşten eşe kriptografik sanal para birimi
+Exec=luq-qt %u
+Terminal=false
+Type=Application
+Icon=luq128
+MimeType=x-scheme-handler/luq;
+Categories=Office;Finance;

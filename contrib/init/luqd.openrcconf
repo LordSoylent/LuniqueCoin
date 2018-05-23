@@ -1,0 +1,26 @@
+# /etc/conf.d/luqd: config file for /etc/init.d/luqd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/luq/luq.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/luqd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/luqd.pid"
+
+# Where to write luqd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/luqd"
+
+# User and group to own luqd process
+#BITCOIND_USER="luq"
+#BITCOIND_GROUP="luq"
+
+# Path to luqd executable
+#BITCOIND_BIN="/usr/bin/luqd"
+
+# Nice value to run luqd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
